@@ -1,51 +1,179 @@
-# 💙 SoulSupport – AI-Based Mental Health Support Chatbot
+🧠 Mental Health GenAI Chatbot
+📌 Project Overview
 
-An AI-powered Emotional Wellness Assistant built using **Python, Streamlit, and Generative AI** to provide compassionate, context-aware, and supportive conversations for mental well-being.
+This project focuses on building a Mental Health Generative AI Chatbot using modern NLP and Large Language Model (LLM) capabilities. The chatbot is designed to provide empathetic, supportive, and safe responses to users seeking mental health guidance.
 
----
+The objective is to create an interactive AI assistant that can:
 
-## 🌟 Project Overview
+Offer emotional support
 
-SoulSupport is a conversational AI chatbot designed to offer a safe and non-judgmental space where users can express their emotions freely.  
+Provide general coping strategies
 
-The chatbot provides:
-- Empathetic responses  
-- Emotional support  
-- Stress-relief suggestions  
-- Motivational guidance  
+Encourage professional help when necessary
 
-This project aims to promote mental wellness awareness and make emotional support more accessible using modern AI technologies.
+Maintain safe and responsible AI behavior
 
----
+This project emphasizes Natural Language Processing, Generative AI, prompt engineering, and real-time chatbot deployment, without complex production-level MLOps pipelines.
 
-## 🚀 Key Features
+🎯 Objectives
 
-- 💬 Real-time interactive chat interface  
-- 🤖 Context-aware AI-generated responses  
-- 💙 Supportive and empathetic conversation style  
-- 🧘 Mental wellness and stress-relief suggestions  
-- 🔐 Secure API key management using environment variables  
-- 🎨 Clean and responsive UI with Streamlit  
+Build an AI-powered conversational chatbot for mental health support
 
----
+Generate empathetic and context-aware responses
 
-## 🛠️ Tech Stack
+Ensure safe AI responses using responsible AI guidelines
 
-- **Python**
-- **Streamlit**
-- **Generative AI API**
-- **python-dotenv**
-- **Git & GitHub**
+Deploy the chatbot using a simple web interface
 
----
+Gain hands-on experience with Generative AI and LLM integration
 
-## 📂 Project Structure
+🧠 Technologies Used
+Programming & Libraries
 
-AI-Based-Mental-Health-Support-Chatbot/
+Python
 
-│── main.py  
-│── config.py  
-│── requirements.txt  
-│── README.md  
-│── .gitignore  
+Streamlit
 
+Google Generative AI (Gemini API)
+
+Pandas (optional for logging/chat history)
+
+dotenv (for API key management)
+
+AI Model
+
+Google Gemini (Generative AI model)
+
+📂 Project Structure
+mental_health_genai_chatbot/
+│
+├── app.py
+├── utils/
+│   └── prompt_template.py
+│
+├── data/ (optional)
+│   └── conversation_logs.csv
+│
+├── requirements.txt
+├── .env
+└── README.md
+🔍 Project Description
+🗣️ What the Chatbot Does
+
+The Mental Health Chatbot:
+
+Accepts user input (feelings, stress, anxiety-related messages)
+
+Uses a Generative AI model to generate supportive responses
+
+Provides coping strategies (breathing, journaling, mindfulness tips)
+
+Encourages seeking professional help in severe cases
+
+Avoids harmful, judgmental, or medical-diagnosis responses
+
+⚠️ Disclaimer:
+This chatbot is not a replacement for professional medical or psychological treatment. It provides general guidance and emotional support only.
+
+⚙️ Project Workflow
+1️⃣ Environment Setup
+
+Create virtual environment
+
+Install required libraries
+
+Configure API key using .env
+
+2️⃣ Prompt Engineering
+
+Design a structured prompt template
+
+Include empathy instructions
+
+Restrict harmful or unsafe responses
+
+Add safety disclaimers when needed
+
+3️⃣ Model Integration
+
+Connect to Google Gemini API
+
+Pass user input to the model
+
+Receive and display generated response
+
+4️⃣ Streamlit Deployment
+
+Create chat interface using Streamlit
+
+Maintain session state for chat history
+
+Display conversation in real-time
+
+Run the app using:
+
+streamlit run app.py
+📊 Features Implemented
+
+✅ Real-time conversational interface
+
+✅ Context-aware AI responses
+
+✅ Clean and simple UI
+
+✅ Session-based chat memory
+
+✅ Basic safety guardrails
+
+✅ API-based LLM integration
+
+📈 Results & Insights
+
+The chatbot generates empathetic and supportive responses
+
+Prompt design significantly impacts response quality
+
+Guardrails help prevent unsafe or harmful outputs
+
+Real-time AI applications can be built efficiently using Streamlit
+
+🏁 Conclusion
+
+This project demonstrates how Generative AI and Large Language Models can be used to create meaningful and supportive conversational applications.
+
+It provides practical experience in:
+
+Prompt engineering
+
+API integration
+
+AI safety practices
+
+Real-time chatbot deployment
+
+🚀 Future Enhancements
+
+Add conversation memory using database (MongoDB / MySQL)
+
+Implement emotion detection using sentiment analysis
+
+Add multi-language support
+
+Deploy on cloud (AWS / Render / GCP)
+
+Integrate crisis detection with emergency helpline suggestions
+
+Improve UI/UX with advanced chat styling
+
+👤 Author
+
+Pranjal Salvi
+Data Science Student
+
+⭐ Acknowledgements
+
+Google Generative AI (Gemini API)
+
+Streamlit
+
+Open-source AI & Data Science community
